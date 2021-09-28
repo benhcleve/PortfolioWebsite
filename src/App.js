@@ -1,10 +1,12 @@
 import React  from "react";
 
+import homePage from "./pages/home";
+
 function App() {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
+    <>
+      <homePage/>
+    </>
   );
 }
 
