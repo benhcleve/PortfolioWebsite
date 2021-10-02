@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Card } from "react-bootstrap";
-import construction1024 from "../Images/construction1024.png";
+import { Row, Button, Card } from "react-bootstrap";
 import constructionCardWide from "../Images/constructionCardWide.png";
 
 const BusinessCard = () => {
