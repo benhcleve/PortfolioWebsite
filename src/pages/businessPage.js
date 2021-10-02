@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import BusinessCard from "../components/businessCard";
-import ReturnHomeButton from "../components/ReturnHomeButton";
+import SideMenuMain from "../components/sideMenuMain";
 
 const BusinessPage = () => {
   return (
     <>
-      <ReturnHomeButton />
+      <SideMenuMain />
       <Container fluid>
         <Row style={{ backgroundColor: "black" }}>
           <h1 className="text-center">Business</h1>

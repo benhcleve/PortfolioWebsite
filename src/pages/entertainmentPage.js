@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ReturnHomeButton from "../components/ReturnHomeButton";
+import SideMenuMain from "../components/sideMenuMain";
 
 const EntertainmentPage = () => {
   return (
     <>
-      <ReturnHomeButton />
+      <SideMenuMain />
       <Container fluid>
         <Row style={{ backgroundColor: "black" }}>
           <Col></Col>
